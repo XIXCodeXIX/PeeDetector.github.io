@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom, #1e5799, #2989d8);
+  background: linear-gradient(to bottom right, #005296, #2989d8, #4996d6);
   margin: 0;
   padding: 0;
   display: flex;
@@ -22,7 +22,7 @@ body {
 #container0 {
   display: none; /* Hide the container initially */
   min-width: 465px;
-  max-width: 465px;
+  max-width: 500;
   padding: 30px;
   margin-top: 430px; /* Adjust as needed */
   font-weight: bold;
