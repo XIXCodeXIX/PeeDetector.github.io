@@ -21,9 +21,8 @@ body {
 
 #container0 {
   display: none; /* Hide the container initially */
-  min-width: 465px;
-  max-width: 500;
-  padding: 30px;
+  min-width: 520px;
+  max-width: 520px;
   margin-top: 430px; /* Adjust as needed */
   font-weight: bold;
   color: #333;
