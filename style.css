@@ -1,0 +1,147 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #1e5799, #2989d8);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  max-width: 500px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 2s ease;
+}
+
+#container0 {
+  display: none; /* Hide the container initially */
+  min-width: 465px;
+  max-width: 465px;
+  padding: 30px;
+  margin-top: 430px; /* Adjust as needed */
+  font-weight: bold;
+  color: #333;
+  font-size: 20px;
+  margin-left: -520px; /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 2s ease;
+  overflow-wrap: break-word; /* Prevents overflow of text */
+}
+
+.title {
+  margin-top: 0;
+  color: #0575E6; /* Changed title color */
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ff0844, #ffb199);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 3s linear infinite;
+}
+
+.file-label,
+button {
+  display: block;
+  background: linear-gradient(to right, #0575E6, #00F260);
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.file-label:hover,
+button:hover {
+  transform: scale(1.1);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.result {
+  font-weight: bold;
+  color: #333;
+  font-size: 24px;
+  margin-top: 30px;
+  animation: fadeIn 1s ease;
+}
+
+.color-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.color-info {
+  flex-grow: 1;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.color-info:hover {
+  transform: scale(1.1);
+}
+
+#uploaded-image {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* Add this class to style the blue text */
+.blue-text {
+  background: linear-gradient(to right, #0575E6, #00F260);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.analyze-button {
+  margin: 0 auto;
+}
+
+.urine-image {
+  width: 200px; /* Adjust as needed */
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Rest of your CSS remains unchanged */
